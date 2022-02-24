@@ -1,0 +1,42 @@
+{
+    "sourceFile": "app.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1645691410026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645691426796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n       span.textContent = \"Copied\";\r\n       over.appendChild(span);\r\n       over.className = \"overlay\";\r\n       over.style.background = bkg;\r\n-      $(\".root\").appendChild(over);\r\n+      document.body.appendChild(over);\r\n       setTimeout(() => {\r\n         over.parentNode.removeChild(over);\r\n       }, 1200);\r\n       //copy to clipboard\r\n"
+                },
+                {
+                    "date": 1645691465578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,10 @@\n   \"linear-gradient(90deg, #efd5ff 0%, #515ada 100%)\",\r\n   \"linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n   \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n+  \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n+  \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n ];\r\n \r\n list.forEach((i) => {\r\n   const span = document.createElement(\"span\");\r\n"
+                },
+                {
+                    "date": 1645691482092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,10 @@\n   \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n   \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n+  \"linear-gradient(-45deg, #fcff9e 0%, #c67700 100%)\",\r\n+  \"linear-gradient(-90deg, #fcff9e 0%, #c67700 100%)\",\r\n ];\r\n \r\n list.forEach((i) => {\r\n   const span = document.createElement(\"span\");\r\n"
+                },
+                {
+                    "date": 1645691630742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,13 @@\n \r\n const list = [\r\n   \"linear-gradient(90deg, #1CB5E0 0%, #000851 100%)\",\r\n   \"linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n-  \"linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)\",\r\n+  \"linear-gradient(-90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(-45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(0deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(140deg, #FC466B 0%, #3F5EFB 100%)\",\r\n   \"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)\",\r\n   \"linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)\",\r\n"
+                },
+                {
+                    "date": 1645691653388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n   \"linear-gradient(-90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(-45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(0deg, #00C9FF 0%, #92FE9D 100%)\",\r\n-  \"linear-gradient(140deg, #FC466B 0%, #3F5EFB 100%)\",\r\n+  \"linear-gradient(1800deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)\",\r\n   \"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)\",\r\n   \"linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)\",\r\n"
+                },
+                {
+                    "date": 1645691679216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   \"linear-gradient(-90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(-45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(0deg, #00C9FF 0%, #92FE9D 100%)\",\r\n-  \"linear-gradient(1800deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(180deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)\",\r\n   \"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)\",\r\n"
+                }
+            ],
+            "date": 1645691410026,
+            "name": "Commit-0",
+            "content": "const $ = document.querySelector.bind(document);\r\nconst $$ = document.querySelectorAll.bind(document);\r\nconst root = $(\".root\");\r\n\r\nconst list = [\r\n  \"linear-gradient(90deg, #1CB5E0 0%, #000851 100%)\",\r\n  \"linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n  \"linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)\",\r\n  \"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)\",\r\n  \"linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)\",\r\n  \"linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)\",\r\n  \"linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)\",\r\n  \"linear-gradient(90deg, #4b6cb7 0%, #182848 100%)\",\r\n  \"linear-gradient(90deg, #9ebd13 0%, #008552 100%)\",\r\n  \"linear-gradient(90deg, #0700b8 0%, #00ff88 100%)\",\r\n  \"linear-gradient(90deg, #d53369 0%, #daae51 100%)\",\r\n  \"linear-gradient(90deg, #efd5ff 0%, #515ada 100%)\",\r\n  \"linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n  \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n  \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n];\r\n\r\nlist.forEach((i) => {\r\n  const span = document.createElement(\"span\");\r\n  span.style.background = i;\r\n  span.className = \"itemColor\";\r\n  span.setAttribute(\"data-color\", i);\r\n  root.appendChild(span);\r\n});\r\n\r\nif ($$(\".itemColor\")) {\r\n  $$(\".itemColor\").forEach((item) => {\r\n    item.addEventListener(\"click\", function (e) {\r\n      const over = document.createElement(\"div\");\r\n      const bkg = e.target.dataset.color;\r\n      const textCopy = `background-color: ${bkg};`;\r\n      const span = document.createElement(\"span\");\r\n      span.textContent = \"Copied\";\r\n      over.appendChild(span);\r\n      over.className = \"overlay\";\r\n      over.style.background = bkg;\r\n      $(\".root\").appendChild(over);\r\n      setTimeout(() => {\r\n        over.parentNode.removeChild(over);\r\n      }, 1200);\r\n      //copy to clipboard\r\n      const input = document.createElement(\"input\");\r\n      input.value = textCopy;\r\n      input.select();\r\n      navigator.clipboard.writeText(input.value);\r\n    });\r\n  });\r\n}\r\n"
+        }
+    ]
+}
