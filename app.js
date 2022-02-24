@@ -23,7 +23,6 @@ const list = [
   "linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)",
   "linear-gradient(-90deg, #00d2ff 0%, #3a47d5 100%)",
   "linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%)",
-  "linear-gradient-450deg, #00d2ff 0%, #3a47d5 100%)",
   "linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%)",
   "linear-gradient(1800deg, #00d2ff 0%, #3a47d5 100%)",
   "linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)",
