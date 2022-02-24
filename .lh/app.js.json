@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1645691410026,
@@ -32,6 +32,10 @@
                 {
                     "date": 1645691679216,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   \"linear-gradient(-90deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(-45deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(0deg, #00C9FF 0%, #92FE9D 100%)\",\r\n-  \"linear-gradient(1800deg, #00C9FF 0%, #92FE9D 100%)\",\r\n+  \"linear-gradient(180deg, #00C9FF 0%, #92FE9D 100%)\",\r\n   \"linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)\",\r\n   \"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)\",\r\n   \"linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)\",\r\n"
+                },
+                {
+                    "date": 1645692096939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,13 @@\n   \"linear-gradient(90deg, #0700b8 0%, #00ff88 100%)\",\r\n   \"linear-gradient(90deg, #d53369 0%, #daae51 100%)\",\r\n   \"linear-gradient(90deg, #efd5ff 0%, #515ada 100%)\",\r\n   \"linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(-90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient-450deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(1800deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n   \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n"
                 }
             ],
             "date": 1645691410026,
