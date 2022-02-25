@@ -31,6 +31,7 @@ const list = [
   "linear-gradient(45deg, #fcff9e 0%, #c67700 100%)",
   "linear-gradient(-45deg, #fcff9e 0%, #c67700 100%)",
   "linear-gradient(-90deg, #fcff9e 0%, #c67700 100%)",
+  "linear-gradient(90deg, #6f7bf7 0%, #9bf8f4 100%)",
 ];
 
 list.forEach((i) => {
@@ -46,7 +47,7 @@ if ($$(".itemColor")) {
     item.addEventListener("click", function (e) {
       const over = document.createElement("div");
       const bkg = e.target.dataset.color;
-      const textCopy = `background-color: ${bkg};`;
+      const textCopy = `background: ${bkg};`;
       const span = document.createElement("span");
       span.textContent = "Copied";
       over.appendChild(span);

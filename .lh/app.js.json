@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1645691410026,
@@ -36,6 +36,18 @@
                 {
                     "date": 1645692096939,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,13 @@\n   \"linear-gradient(90deg, #0700b8 0%, #00ff88 100%)\",\r\n   \"linear-gradient(90deg, #d53369 0%, #daae51 100%)\",\r\n   \"linear-gradient(90deg, #efd5ff 0%, #515ada 100%)\",\r\n   \"linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(-90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient-450deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%)\",\r\n+  \"linear-gradient(1800deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n   \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n"
+                },
+                {
+                    "date": 1645704223992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,17 +22,17 @@\n   \"linear-gradient(90deg, #efd5ff 0%, #515ada 100%)\",\r\n   \"linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(-90deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%)\",\r\n-  \"linear-gradient-450deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(1800deg, #00d2ff 0%, #3a47d5 100%)\",\r\n   \"linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)\",\r\n   \"linear-gradient(90deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(-45deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(-90deg, #fcff9e 0%, #c67700 100%)\",\r\n+  \"linear-gradient(90deg, #6f7bf7, #9bf8f4)\",\r\n ];\r\n \r\n list.forEach((i) => {\r\n   const span = document.createElement(\"span\");\r\n"
+                },
+                {
+                    "date": 1645704232495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n   \"linear-gradient(0, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(45deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(-45deg, #fcff9e 0%, #c67700 100%)\",\r\n   \"linear-gradient(-90deg, #fcff9e 0%, #c67700 100%)\",\r\n-  \"linear-gradient(90deg, #6f7bf7, #9bf8f4)\",\r\n+  \"linear-gradient(90deg, #6f7bf7 0%, #9bf8f4 100%)\",\r\n ];\r\n \r\n list.forEach((i) => {\r\n   const span = document.createElement(\"span\");\r\n"
+                },
+                {
+                    "date": 1645775458216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   $$(\".itemColor\").forEach((item) => {\r\n     item.addEventListener(\"click\", function (e) {\r\n       const over = document.createElement(\"div\");\r\n       const bkg = e.target.dataset.color;\r\n-      const textCopy = `background-color: ${bkg};`;\r\n+      const textCopy = `background: ${bkg};`;\r\n       const span = document.createElement(\"span\");\r\n       span.textContent = \"Copied\";\r\n       over.appendChild(span);\r\n       over.className = \"overlay\";\r\n"
                 }
             ],
             "date": 1645691410026,
